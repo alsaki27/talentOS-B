@@ -1,0 +1,9 @@
+{
+  "name": "talentos-track-b",
+  "version": "0.1.0",
+  "description": "TalentOS external extensions and adapters (Track B)",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

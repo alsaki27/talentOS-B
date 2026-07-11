@@ -1,0 +1,13 @@
+{
+  "name": "@talentos/shared",
+  "version": "0.1.0",
+  "description": "Shared code for all extensions",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
