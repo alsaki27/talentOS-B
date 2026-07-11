@@ -1,0 +1,1 @@
+{"name":"@talentos/extension-qa","version":"0.1.0","description":"B3: JD-to-Resume QA extension","private":true,"scripts":{"build":"webpack --mode production"}}

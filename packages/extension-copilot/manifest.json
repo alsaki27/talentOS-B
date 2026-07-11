@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"TalentOS Apply Copilot","version":"0.1.0","description":"Fill applications, human confirms submit","permissions":["activeTab","scripting"],"action":{"default_title":"Fill application"}}

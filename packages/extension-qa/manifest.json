@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"TalentOS Resume QA","version":"0.1.0","description":"Check resume readiness before applying","permissions":["activeTab"],"action":{"default_title":"Check readiness"}}
