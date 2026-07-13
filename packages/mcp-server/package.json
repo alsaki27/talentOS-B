@@ -1,0 +1,18 @@
+{
+  "name": "@talentos/mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for TalentOS — full read/write access with anti-wipeout gates",
+  "private": true,
+  "main": "dist/index.js",
+  "bin": {
+    "talentos-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npx ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@talentos/shared": "*"
+  }
+}

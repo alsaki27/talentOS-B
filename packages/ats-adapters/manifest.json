@@ -1,0 +1,11 @@
+{
+  "manifestVersion": "1.0.0",
+  "updatedAt": "2026-07-12T00:00:00Z",
+  "adapters": [
+    { "name": "greenhouse", "version": "1.0.0", "maturity": "verified", "checksum": "c116263bfc34" },
+    { "name": "lever", "version": "1.0.0", "maturity": "draft", "checksum": "dace14d557c1" },
+    { "name": "ashby", "version": "1.0.0", "maturity": "draft", "checksum": "806ed56989df" },
+    { "name": "workday", "version": "1.0.0", "maturity": "draft", "checksum": "stub" },
+    { "name": "icims", "version": "1.0.0", "maturity": "draft", "checksum": "stub" }
+  ]
+}

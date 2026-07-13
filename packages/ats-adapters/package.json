@@ -1,1 +1,13 @@
-{"name":"@talentos/ats-adapters","version":"0.1.0","description":"B4: ATS submission field adapters (versioned independently)","private":true,"main":"dist/index.js","scripts":{"build":"tsc","canary":"node dist/canary.js"}}
+{
+  "name": "@talentos/ats-adapters",
+  "version": "0.2.0",
+  "description": "B4: ATS submission field adapters (versioned independently)",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "canary": "node dist/canary.js",
+    "test": "node --test dist/test/"
+  }
+}

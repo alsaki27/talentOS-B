@@ -4,4 +4,10 @@ build/
 *.crx
 *.zip
 .env.local
+.env
 .DS_Store
+*.tsbuildinfo
+coverage/
+test-results/
+.kilo/
+.nyc_output/

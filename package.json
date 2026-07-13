@@ -1,9 +1,25 @@
 {
   "name": "talentos-track-b",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "TalentOS external extensions and adapters (Track B)",
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "build": "node tools/build-all.mjs",
+    "test": "npx tsc -p packages/readiness-engine/tsconfig.test.json && npx tsc -p packages/ats-adapters/tsconfig.json && node --test packages/readiness-engine/dist/test/readiness.test.js && node -e \"require('./packages/ats-adapters/dist/canary.js')\"",
+    "lint": "node -e \"console.log('lint: placeholder - eslint config needed')\"",
+    "mock-server": "node tools/mock-a4-server.mjs",
+    "test:integration": "node tools/run-integration.mjs",
+    "ci": "npm run build && npm test && npm run test:integration && node tools/check-no-submit.mjs && node tools/check-adapter-versions.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "esbuild": "^0.20.0",
+    "@types/chrome": "^0.0.260",
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "eslint": "^9.0.0"
+  }
 }

@@ -1,1 +1,14 @@
-{"name":"@talentos/browser-profiles","version":"0.1.0","description":"B2: Browser profile manager CLI","private":true,"bin":{"talentos-profile":"dist/cli.js"},"scripts":{"build":"tsc","dev":"ts-node src/cli.ts"}}
+{
+  "name": "@talentos/browser-profiles",
+  "version": "0.2.0",
+  "description": "B2: Browser profile manager CLI",
+  "private": true,
+  "bin": {
+    "talentos-profile": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx ts-node src/cli.ts",
+    "test": "node --test dist/test/"
+  }
+}

@@ -1,1 +1,13 @@
-{"name":"@talentos/extension-copilot","version":"0.1.0","description":"B5: Apply Copilot - human-in-the-loop autofill","private":true,"dependencies":{"@talentos/shared":"workspace:*","@talentos/ats-adapters":"workspace:*"},"scripts":{"build":"webpack --mode production"}}
+{
+  "name": "@talentos/extension-copilot",
+  "version": "0.2.0",
+  "description": "B5: Apply Copilot - human-in-the-loop autofill",
+  "private": true,
+  "scripts": {
+    "build": "node ../../tools/build-extension.mjs extension-copilot"
+  },
+  "dependencies": {
+    "@talentos/shared": "*",
+    "@talentos/ats-adapters": "*"
+  }
+}

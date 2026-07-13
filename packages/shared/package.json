@@ -1,13 +1,12 @@
 {
   "name": "@talentos/shared",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Shared code for all extensions",
   "private": true,
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
-  },
-  "devDependencies": {
-    "typescript": "^5.3.0"
+    "build": "tsc",
+    "test": "node --test dist/test/"
   }
 }
